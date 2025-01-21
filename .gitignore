@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Data
+data/
+*.gz
+*.ubyte
+
+# Model files
+*.pth
+*.pt
+*.ckpt
+
+# Training artifacts
+*.png
+logs/
+runs/
+wandb/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
