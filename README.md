@@ -1,6 +1,7 @@
 # MNIST: CNN vs Vision Transformer
 
 MNISTデータセットを使用して、CNNとVision Transformer (ViT) の性能を比較した実装です。
+動作確認用のPyGameを使ったサンプルアプリも同梱しました。
 
 ## 実装内容
 
