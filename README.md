@@ -78,3 +78,33 @@ pip install torch torchvision einops matplotlib numpy
 2. 学習の実行:
 ```bash
 python train.py
+```
+
+## 手書き数字認識アプリ
+
+学習済みViTモデルを使用して、リアルタイムで手書き数字を認識するアプリケーションを提供しています。
+
+### 追加の要件
+
+- pygame
+
+### 使用方法
+
+1. PyGameのインストール:
+```bash
+source .venv/bin/activate  # 仮想環境が有効でない場合
+pip install pygame
+```
+
+2. アプリの実行:
+```bash
+python pygame_app.py
+```
+
+### 操作方法
+
+- **左クリック**: 数字を描画
+- **スペースキー**: 描画をクリア
+- **ESCキー**: アプリを終了
+
+数字を描くと、リアルタイムで上位3つの予測結果が表示されます。
